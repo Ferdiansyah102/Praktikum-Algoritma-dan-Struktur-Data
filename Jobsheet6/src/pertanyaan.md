@@ -1,4 +1,4 @@
-##5.2.3 Pertanyaan
+## 5.2.3 Pertanyaan
 1.	terdapat di method bubble short pada class DaftarMahasiswaBerprestasi.
 2.	Masih belum ada untuk method selection sort
 3.	Mahasiswa tmp = listMhs[j];

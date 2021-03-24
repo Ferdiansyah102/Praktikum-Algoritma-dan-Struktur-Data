@@ -11,7 +11,7 @@ package Tugas1;
  * @author ACER
  */
 public class MainTiket {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         TiketService pswt = new TiketService();
         Tiket a1 = new Tiket("Lion Air", 500000, "Jakarta", "Kalimantan");
         Tiket a2 = new Tiket("Garuda", 1000000, "Jakarta" , "Surabaya");

@@ -29,5 +29,4 @@ public class PremierLeague {
         System.out.println("Goal : " + goal);
         System.out.println("Points : " + points);
     }
-     
 }
