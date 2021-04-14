@@ -1,37 +1,18 @@
-## 4.2.3 Pertanyaan
+## 5.2.3 Pertanyaan
+1.	terdapat di method bubble short pada class DaftarMahasiswaBerprestasi.
+2.	Masih belum ada untuk method selection sort
+3.	Mahasiswa tmp = listMhs[j];
+    listMhs[j] = listMhs[j-1];
+    listMhs[j-1] = tmp;
+4.	Untuk melakukan pengurutan pada proses bubble sort dan ada code swap untuk melakukan pengecekan  atau      membandingkan data nilai itu jika pengurutannya descending maka dimulai dari yang terbesar.
+5.
+    a. perbedaannya adalah perulangan i digunakan untuk peroses pengulangan 1 dan perulangan j digunakan untuk proses pengulangan 2
 
-1. Algoritma Divide Conquer pencarian nilai faktorial adalah saat menerima
-parameter sama dengan satu maka akan dikembalikan lagi sama dengan satu.
-Jika menerima parameter lebih dari satu maka parameter atau n tersebut akan
-dikalikan dengan method faktorialDC dengan parameter n-1, proses tersebut
-terus berulang dan akan berhenti jika n sama dengan satu.
-2. Iya terdapat 3 tahapan divide, conquer, dan combien
-Tahapan divide ditunjukan dengan adanya pembagian kondisi if else, tahapan
-conquer ditunjukkan dengan proses pengkalian nilai n dengan method
-faktorialDC, dan tahapan combien ditujukkan dengan penampilan hasil
-penghitungan faktorial pada return.
-3. Bisa, dirubah menggunakan 
-while
-public int faktorialBF(int n){
- int fakto = 1;
- int i = 1;
- while (i <= n){
- fakto = fakto * i;
- i++;
- }
- return fakto;
- }
- 4. Baik
+    b. Hal itu menunjukkan seberapa banyak perulangan pada proses pengulangan 1 yaitu jika data ada sebanyak 5 data maka prose perulangannya sebanyak 4 kali
 
-## 4.3.3 Pertanyaan
+    c. Hal ini menunjukkan seberapa banyak perulangan pada proses pengulangan 2 yaitu jika pada pengulangan 1 ada sebanyak 4 perulangan maka pangulangan 2 juga 4 perulangan
 
-1. Pada method PangkatBF menggunakan perulangan for untuk melakukan perhitungan perkalian nilai yang dipangkat dengan pangkatnya, sedangkan pada method PangkatDC proses pehitungannya dengan dibagi menggunakan kondisi if else lalu untuk proses pengkaliannya dengan cara memanggil atau mengkalikannya dengan fungsi PangkatDC. 
-2. Pada potongan program tersebut terdapat kondisi apabila nilai n adalah modulus 2 = 1, maka returnnya adalah mengkalikan method PangkatDC
-dengan method PangkatDC dengan parameter a,n/2 lalu mengkalikannya dengan a. Jika kondisinya else returnnya adalah mengkalikan method
-PangkatDC dengan method PangkatDC dengan parameter a,n/2 tanpa mengkalikannya dengan a.
-3. Sudah, pada kode tersebut melakukan combine dengan menggunkan return
-4. Baik
+    d. perulangan pada i sebanyak 49 kali perulangan dan total perulangan pada bubble short adalah 98 kali perulangan
 
-## 4.4.3 Pertanyaan
-
-1. 
+ ## 5.3.3. JAWABAN PERTANYAAN
+    proses tersebut adalah proses swapping yang petama - tama adalah mencari nilai terbesar/terkecil dari data lalu melakukan pertukaran dengan elemen terkiri yang belum terurut sampai ke elemen berikutnya
